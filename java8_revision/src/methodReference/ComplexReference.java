@@ -15,7 +15,7 @@ public class ComplexReference {
 		
 		Player p = new Player("messi", 10,
 				Arrays.asList("god","running", "gym","family" ),
-				32, CategoryLevel.A);
+				32, CategoryLevel.A,32);
 		System.out.println(f.apply(p));
 	}
 

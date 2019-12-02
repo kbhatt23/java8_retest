@@ -18,7 +18,7 @@ public class PredicateReference {
 		Predicate<Player> pPredixate = PredicateReference::isPlayerGood;
 		Player p = new Player("messi", 10,
 				Arrays.asList("god","running", "gym","family" ),
-				32, CategoryLevel.B);
+				32, CategoryLevel.B,23);
 		System.out.println(pPredixate.test(p));
 		
 		//ways

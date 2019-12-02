@@ -16,7 +16,7 @@ public class SupplierUsage {
 		
 		Supplier<Player> s2 =  () -> new Player("messi", 10,
 				Arrays.asList("god","running", "gym","family" ),
-				32, CategoryLevel.A);
+				32, CategoryLevel.A,23);
 		System.out.println(s2.get());
 		
 		Supplier<List<Player>> sp2 = () -> PlayerDB.fetchPlayers();

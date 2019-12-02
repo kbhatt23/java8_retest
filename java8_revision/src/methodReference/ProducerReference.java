@@ -18,7 +18,7 @@ public class ProducerReference {
 		
 		Player pa = new Player("messi", 10,
 				Arrays.asList("god","running", "gym","family" ),
-				32, CategoryLevel.A);
+				32, CategoryLevel.A,11);
 		
 		Consumer<Player> cp = Player::print;
 		cp.accept(pa);
